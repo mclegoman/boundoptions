@@ -1,6 +1,6 @@
-package com.mclegoman.bound_options.keybindings;
+package com.mclegoman.bound_options.client.keybindings;
 
-import com.mclegoman.bound_options.BoundOptions;
+import com.mclegoman.bound_options.client.BoundOptionsClient;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
@@ -20,12 +20,12 @@ public class Keybindings {
 
 	static {
 		allKeybindings = new KeyBinding[]{
-				toggleSneak = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "toggle_sneak", GLFW.GLFW_KEY_UNKNOWN),
-				toggleSprint = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "toggle_sprint", GLFW.GLFW_KEY_UNKNOWN),
-				toggleSubtitles = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "toggle_subtitles", GLFW.GLFW_KEY_UNKNOWN),
-				toggleMainHand = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "toggle_main_hand", GLFW.GLFW_KEY_UNKNOWN),
-				toggleAutoJump = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "toggle_auto_jump", GLFW.GLFW_KEY_UNKNOWN),
-				cycleChat = getKeybinding(BoundOptions.MOD_ID, BoundOptions.MOD_ID, "cycle_chat", GLFW.GLFW_KEY_UNKNOWN)
+				toggleSneak = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "toggle_sneak", GLFW.GLFW_KEY_UNKNOWN),
+				toggleSprint = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "toggle_sprint", GLFW.GLFW_KEY_UNKNOWN),
+				toggleSubtitles = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "toggle_subtitles", GLFW.GLFW_KEY_UNKNOWN),
+				toggleMainHand = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "toggle_main_hand", GLFW.GLFW_KEY_UNKNOWN),
+				toggleAutoJump = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "toggle_auto_jump", GLFW.GLFW_KEY_UNKNOWN),
+				cycleChat = getKeybinding(BoundOptionsClient.MOD_ID, BoundOptionsClient.MOD_ID, "cycle_chat", GLFW.GLFW_KEY_UNKNOWN)
 		};
 	}
 	public static void init() {

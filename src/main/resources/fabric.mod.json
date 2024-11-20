@@ -9,10 +9,10 @@
 	],
 	"license":  "LGPL-3.0-or-later",
 	"icon": "assets/bound_options/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"com.mclegoman.bound_options.BoundOptions"
+		"client": [
+			"com.mclegoman.bound_options.client.BoundOptionsClient"
 		]
 	}
 }
