@@ -1,4 +1,5 @@
 # Bound Options  
+[![Download from Modrinth](./assets/download_from_modrinth.png)](https://modrinth.com/mod/boundoptions)  
 This mod adds keybindings to toggle/cycle specific options, such as (but not limited to) subtitles, chat visibility, and toggle sneak.  
 
 #  
