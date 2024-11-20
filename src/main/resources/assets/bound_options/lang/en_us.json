@@ -5,6 +5,6 @@
 	"gui.bound_options.keybindings.keybinding.toggle_subtitles": "Toggle Subtitles",
 	"gui.bound_options.keybindings.keybinding.toggle_main_hand": "Toggle Main Hand",
 	"gui.bound_options.keybindings.keybinding.toggle_auto_jump": "Toggle Auto Jump",
-	"gui.bound_options.keybindings.keybinding.cycle_chat": "Cycle Chat",
+	"gui.bound_options.keybindings.keybinding.cycle_chat": "Cycle Chat Visibility",
 	"gui.bound_options.message.keybinding": "%s: %s"
 }
